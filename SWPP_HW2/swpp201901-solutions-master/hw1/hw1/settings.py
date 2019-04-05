@@ -9,8 +9,7 @@ SECRET_KEY = '#w0wmsry)wg-jd4l%p8rk8v%q60d+bnu5f0w%%f+cu1k!myp^0'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-18-220-162-221.us-east-2.compute.amazonaws.com', '18.220.162.221
-']
+ALLOWED_HOSTS = ['ec2-18-220-162-221.us-east-2.compute.amazonaws.com', '18.220.162.221']
 
 
 # Application definition
@@ -110,5 +109,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
 CORS_ORIGIN_ALLOW_ALL = True

@@ -5,7 +5,7 @@ import { postSuccess, postRequest, postFail, deleteSuccess, deleteRequest,
   loginSuccess, loginFail, loginRequest, logoutRequest } from 'store/actions'
 
 
-const url = 'ec2-18-220-162-221.us-east-2.compute.amazonaws.com:8000/meetings/'
+const url = 'http://18.220.162.221:8000/meetings/'
 
 export function* loginReq(action){
   let name = action.username
